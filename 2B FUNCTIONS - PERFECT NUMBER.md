@@ -11,14 +11,14 @@ To write a Python program to check if a number is a Strong number using the conc
 1. Start
 2. Define a function is_strong(num):
     - Initialize sum = 0
-    -Store original number in temp = num
-    -Repeat while num > 0:
-        -Extract the last digit: digit = num % 10
-        -Compute factorial of digit
-        -Add factorial to sum
-        -Remove last digit: num = num // 10
-    -If sum == temp, return True
-    -Else, return False
+    - Store original number in temp = num
+    - Repeat while num > 0:
+        - Extract the last digit: digit = num % 10
+        - Compute factorial of digit
+        - Add factorial to sum
+        - Remove last digit: num = num // 10
+    - If sum == temp, return True
+    - Else, return False
 3. Input a number from the user and store it in n
 4. Call the function is_strong(n)
 5. If it returns True, print "Strong number"
