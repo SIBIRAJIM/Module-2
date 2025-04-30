@@ -6,7 +6,6 @@
 ### AIM  
 To write a Python program to print the right handled triangle pyramid pattern of Stars. Get the no of rows as input.
 
----
 
 ### ALGORITHM
 
