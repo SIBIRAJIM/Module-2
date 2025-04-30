@@ -12,11 +12,11 @@ To write a Python program to print the right handled triangle pyramid pattern of
 1. Start
 2. Input an integer n (number of rows).
 3. Loop i from 0 to n - 1: ← (each row)
-   -Loop j from 0 to n - i - 2:
-       -Print two spaces ' ' (for right alignment), without newline.
-   -Loop j from 0 to i:
-      -Print '* ' (asterisk followed by space), without newline.
-   -Print a newline character to move to the next row.
+   - Loop j from 0 to n - i - 2:
+       - Print two spaces ' ' (for right alignment), without newline.
+   - Loop j from 0 to i:
+      - Print '* ' (asterisk followed by space), without newline.
+   - Print a newline character to move to the next row.
 4. End
 
 ### PROGRAM
