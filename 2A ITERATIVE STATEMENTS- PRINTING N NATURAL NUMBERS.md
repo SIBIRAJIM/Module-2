@@ -8,13 +8,13 @@ To create a Python program for printing sum of N EVEN numbers
 ###  Algorithm
 
 1. Start.
-2.Input a number N from the user.
-3.Initialize sum = 0.
-4.Loop from i = 1 to N:
-5.Compute the i-th even number as even = 2 * i
-6.Add even to sum
-7.After the loop, print the value of sum.
-8.End.
+2. Input a number N from the user.
+3. Initialize sum = 0.
+4. Loop from i = 1 to N:
+5. Compute the i-th even number as even = 2 * i
+6. Add even to sum
+7. After the loop, print the value of sum.
+8. End.
 
 
 ### 🧾 Program
