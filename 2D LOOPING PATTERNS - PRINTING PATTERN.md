@@ -1,36 +1,46 @@
 # Exp.No:2d
-## LOOPING PATTERNS - PRINTING PATTERN
+## LOOPING PATTERNS - RIGHT HANDLED TRIANGLE PYRAMID PATTERN
 
 ---
 
 ### AIM  
-To write a Python program to print a triangular star pattern using loops.
+To write a Python program to print the right handled triangle pyramid pattern of Stars. Get the no of rows as input.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Read the integer `n` from the user using `input()`. This will determine the number of rows in the pattern.  
-3. Initialize a variable `i = 0`. This will help adjust the spacing before the stars.  
-4. Loop through rows from `0` to `n - 1`:  
-   - For each row, calculate the number of spaces to print using the formula: `((n - rows - 1) * 2) + i`.  
-   - Print the calculated number of spaces using `print(" ", end="")`.  
-   - Increment `i` by 1 after each row.  
-   - Print stars using a nested loop: the number of stars in each row is `rows + 1`, printed using `print("*", end="  ")`.  
-   - Print a newline after each row using `print("")` to move to the next line.  
-5. Terminate the program.
-
----
+1. Start
+2. Input an integer n (number of rows).
+3. Loop i from 0 to n - 1: ← (each row)
+   -Loop j from 0 to n - i - 2:
+       -Print two spaces ' ' (for right alignment), without newline.
+   -Loop j from 0 to i:
+      -Print '* ' (asterisk followed by space), without newline.
+   -Print a newline character to move to the next row.
+4. End
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
+#Reg.No:212223050048
+#Name:SIBIRAJI M
 #Add Your Code Here
+n=int(input())
+for i in range(n):
+    for j in range(n-i-1):
+        print(' ',end=' ')
+    for j in range(i+1):
+        print("*",end=" ")
+    print()
 
 ```
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/cac1f905-7729-4db1-99e1-d0d01e22f4d2)
+
+
 ### RESULT
+
+Thus the Python program to print the right handled triangle pyramid pattern of Stars. Get the no of rows as input is executed successfully.
+
