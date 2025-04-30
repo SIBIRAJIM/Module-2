@@ -34,14 +34,10 @@ print(r(a,b,c))
 
 ### OUTPUT
 
-```
 ![image](https://github.com/user-attachments/assets/a43d13b4-84b9-4ac7-8bdc-625d45443727)
-
-```
 
 ### RESULT
 
-```
 Thus the Python program to  calculate the value of the following expression by using lambda function. The expression is -
 (x / 10) * (y / 2) * z — using a lambda function is executed successfully.
-```
+
